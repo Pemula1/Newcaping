@@ -76,8 +76,8 @@ read -p "Masukan pilihan anda :" pilih;
 if [ $pilih = 1 ]; then
     echo "loding caping 1....."
     cd $HOME
-    apt update
-    git clone https://github.com/Pemula1/caping
+
+
     cd Caping
     php caping1.php
 exit 0
