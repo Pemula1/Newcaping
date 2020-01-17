@@ -33,43 +33,43 @@ echo $bir"══╩══╩══"
 
 echo " "
 date |lolcat
-sleep 4
+sleep 1
 echo "SCRIPT YANG TERSEDIA" |lolcat
 echo "                    "
 echo "----------------------------------------------" |lolcat
-sleep 1
+
 echo "\033[1;33m (1).capin 1"
-sleep 1
+
 echo "----------------------------------------------" |lolcat
 echo "\033[1;33m (2).caping 2"
-sleep 1
+
 echo "----------------------------------------------" |lolcat
 echo "\033[1;33m (3).caping 4"
-sleep 1
+
 echo "----------------------------------------------"  |lolcat
 echo "\033[1;33m (4).caping 5"
-sleep 1
+
 echo "----------------------------------------------"  |lolcat
 echo "\033[1;33m (5).caping 5"
-sleep 1
+
 echo "----------------------------------------------"  |lolcat
 echo "\033[1;33m (6).caping 6"
-sleep 1
+
 echo "----------------------------------------------"  |lolcat
 echo "\033[1;33m (7).caping 7"
-sleep 1
+
 echo "----------------------------------------------"  |lolcat
 echo "\033[1;33m (8).caping 8"
-sleep 1
+
 echo "----------------------------------------------"  |lolcat
 echo "\033[1;33m (9).caping 9"
-sleep 1
+
 echo "----------------------------------------------"  |lolcat
 echo "\033[1;33m (10).caping 10"
-sleep 1
+
 echo "----------------------------------------------" |lolcat
 echo "\033[1;36m (99).EXIT PROGAM"
-sleep 1
+
 echo "----------------------------------------------" |lolcat
 sleep 2
 read -p "Masukan pilihan anda :" pilih;
@@ -78,15 +78,15 @@ if [ $pilih = 1 ]; then
     cd $HOME
 
 
-    cd Caping
+    cd caping
     php caping1.php
 exit 0
 elif [ $pilih = 2 ]; then
     echo "loding caping 2....."
     cd $HOME
     apt update
-    git clone https://github.com/Pemula1/caping
-    cd Caping
+
+    cd caping
     php caping2.php
 exit 0
 elif [ $pilih = 3 ]; then
