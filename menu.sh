@@ -60,6 +60,7 @@ if [ $pilih = 2 ]; then
    clear
    pkg update -y
    clear
+   cd $HOME
    git clone https://github.com/Pemula1/caping
 clear
    pkg upgrade -y
